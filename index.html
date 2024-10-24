@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Divinity Games</title>
+    <link rel="stylesheet" href="app.css">
+    <!-- Importing Google Fonts for headings -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap">
+    <style>
+        /* Additional inline CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        .hero {
+            background-color: #ccc;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .about-section, .artist-section {
+            padding: 50px;
+            background-color: #f4f4f4;
+        }
+
+        .game-grid {
+            display: flex;
+            gap: 20px;
+        }
+
+        .game-item {
+            flex: 1;
+            text-align: center;
+        }
+
+        footer {
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <img src="1.jpg" alt="Divinity Games Logo" style="max-width:200px; height:auto;">
+            <h1>Divinity Games</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <h2>Welcome to Divinity Games</h2>
+            <p>Experience the future of gaming without microtransactions, battle passes, or pay-to-win strategies.</p>
+            <button onclick="learnMore()">Learn More</button>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="about-section">
+            <h2>What is Divinity Games?</h2>
+            <p>Divinity Games is a passion-driven indie game development studio aiming to create games that focus on player enjoyment and fun. Founded by gamers, for gamers.</p>
+        </section>
+
+        <!-- Artist Recruitment Section -->
+<!-- Artist Recruitment Section -->
+<section id="artist-section" class="artist-section">
+    <h2>Yo, You Wanna Join Our Visual Novel, A Game Project In Progress?</h2>
+    <p>Hey, what’s up! I’m Travis K. Nagel, I’m the lead manager, scriptwriter, and programmer for a super cool visual novel game in the making. Got a sweet band and a game tester already on board, and we’re aiming to launch this project on Steam by fall 2025, hopefully around August.</p>
+    
+    <p>We’re looking for someone skilled in digital character designs and digital background designs who knows their way around visual novels. If you’ve got a portfolio to show off, we’d love to check it out!</p>
+    
+    <p>Now, I won’t sugarcoat it, this is a volunteer gig for the most part, perfect if you’re looking to get some real experience with a passionate team. I’d love to pay you, but we’re working with tight pockets here all funds so far have been out-of-pocket. We can chat about payment possibilities, but just know, it won’t be anything wild.</p>
+    
+    <p>If you're only skilled in one area, either backgrounds or character design, no worries, we can still talk!</p>
+    
+    <p>If you’re down, hit me up on Instagram or my email!</p>
+    
+    <!-- New Contact Buttons -->
+    <div style="margin-top: 20px;">
+        <a href="https://www.instagram.com/mr_blue_the_game_dev?igsh=MWlvbnVzZWFlMm1laQ%3D%3D&utm_source=qr" target="_blank" style="text-decoration:none;">
+            <button style="background-color: #ff9800; color: white; padding: 10px 20px; border: none; cursor: pointer;">Instagram</button>
+        </a>
+        <a href="mailto:divinitygames004@gmail.com" style="text-decoration:none;">
+            <button style="background-color: #0073e6; color: white; padding: 10px 20px; border: none; cursor: pointer;">Email Us</button>
+        </a>
+    </div>
+
+    <!-- Background and Character Design Examples -->
+    <div style="display: flex; justify-content: center; gap: 10px; margin-top: 20px;">
+        <h3>Examples of the Background Designs We're Looking For</h3>
+    </div>
+    <div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
+        <img src="Backgrounds.png" alt="Background Design Examples" style="max-width:100%;">
+    </div>
+
+    <div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
+        <h3>Examples of the Character Designs We're Looking For</h3>
+    </div>
+    <div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
+        <img src="Characters.png" alt="Character Design Examples" style="max-width:100%;">
+    </div>
+</section>
+
+
+        <!-- Social Media Section -->
+        <section id="contact" class="artist-section">
+            <h2>Follow Us on Social Media</h2>
+            <div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
+                <!-- Instagram QR Code -->
+                <img src="IMG_0521.jpg" alt="Instagram QR Code" style="max-width:200px; height:auto;">
+                <!-- YouTube QR Code -->
+                <img src="IMG_0522.jpg" alt="YouTube QR Code" style="max-width:200px; height:auto;">
+            </div>
+            <p style="text-align: center; margin-top: 20px;">Or follow us on Instagram: <a href="https://www.instagram.com/mr_blue_the_game_dev?igsh=MWlvbnVzZWFlMm1laQ%3D%3D&utm_source=qr" target="_blank">@mr_blue_the_game_dev</a></p>
+            <p style="text-align: center; margin-top: 20px;">Or reach out to us via email: <a href="mailto:divinitygames004@gmail.com">divinitygames004@gmail.com</a></p>
+        </section>
+
+            <!-- About Me Section -->
+<section id="about-me" class="about-section">
+    <h2>About Me</h2>
+    <p>Hey, I’m Mr. Blue, and here’s a little about me. I was born and raised in Texas, and growing up, I moved around a lot from school to school. But through all that change, video games and tabletop games have always been my constant source of fun and joy.</p>
+    <p>As a gamer, I’ve explored everything from Nintendo to Xbox, PlayStation to PC. I’ve got more games than I could count. I’ve spent years diving into countless worlds and stories, and video games have always been there for me, through both the highs and the lows. They’ve taught me problem-solving, strategy, and the simple reminder to kick back and breathe every once in a while. I wouldn’t trade those experiences for anything.</p>
+    <p>Now, I’d be lying if I said I didn’t have concerns about the future of gaming. A lot of AAA companies these days are all about profits rather than player enjoyment. Many of the folks running these companies are more businessmen than gamers, focusing on microtransactions, battle passes, and pre-order DLCs which, if you ask me, feels like selling an incomplete game.</p>
+    <p>I’m no business guru, just a simple gamer in my twenties, and I want to create games that bring back that joy and nostalgia I’ve experienced over the years so that someone else can experience those same feelings.</p>
+    <p>Whether it’s narrative-driven adventures, strategic card games, or MMORPGs that aren’t pay-to-win, I’m all about games that prioritize fun and player enjoyment. I may be starting small with a visual novel and maybe that isn’t everyone’s cup of tea, but you have to start small to go somewhere big.</p>
+    <p>One thing’s for sure, Divinity Games is founded by <b><i>Gamers, for Gamers</i></b>. That’s what we’re all about. Games have always been there for me, and I want to create something that’ll do the same for others. That’s what drives me.</p>
+</section>
+
+
+
+        <!-- Visual Novel About Section -->
+        <section id="games" class="about-section">
+            <h2>About Our Visual Novel</h2>
+            <p><em>Now, I’m gonna let one of my characters take over and tell you all about the game. Ken, the mic’s all yours!</em></p>
+            <p>What up! Ken Speaking! You’re about to step into a world packed with wild friendships, unexpected twists, and some seriously quirky moments. This visual novel is a slice of life. It’s all about choices, bro. Every decision you make may have some ripple effect.</p>
+            <!-- Game Character List -->
+            <h2>Meet The Board Games Club</h2>
+        
+            <p><strong>The MC:</strong> A new kid on campus, trying to figure it all out. Put in some real drama! like what even is this kind of cheap, daytime soap opera do you even live in?</p>
+            <p><strong>Kenji Nakamoto (Ken):</strong> Your best bud, full of energy and always down for some ramean and to make sure you never bored. I got your back buddy!</p>
+            <p><strong>Yui Nakamura:</strong> A young, shy teacher who’s secretly a huge nerd. She’s into video games, but her family’s pushing her to grow up faster and start a family.</p>
+            <p><strong>Aiko Tanaka:</strong> Your childhood friend who’s always keeping you on your toes. She’s sporty, loud, and at times rude! But she’s got your back.</p>
+            <p><strong>Emi Sato:</strong> Smart, pretty, rich she’s the perfect girl, but even she’s looking for real friends.</p>
+            <p><strong>Mika Yoshida:</strong> Tiny, rich, and a bit of a snob, but she’s also a rising idol with hidden genius and shes kinda cool once you get some one on one.</p>
+            
+            <p>This visual novel is going to hit you with all the feels humor, romance, mystery, and more. Get ready for epic board game showdowns and unexpected friendships. Your choices shape everything, so buckle up!</p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Divinity Games. All Rights Pending.</p>
+    </footer>
+
+    <!-- JavaScript for Smooth Scrolling -->
+    <script>
+        function learnMore() {
+            document.querySelector('#about').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
+
