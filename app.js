@@ -46,3 +46,17 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+function toggleViewMode() {
+    const body = document.body;
+    const toggleButton = document.getElementById('toggleView');
+    
+    if (body.classList.contains('pc-view')) {
+        body.classList.remove('pc-view');
+        body.classList.add('phone-view');
+        toggleButton.innerText = 'Switch to PC View';
+    } else {
+        body.classList.remove('phone-view');
+        body.classList.add('pc-view');
+        toggleButton.innerText = 'Switch to Phone View';
+    }
+}
