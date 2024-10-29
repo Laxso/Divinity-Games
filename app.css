@@ -255,3 +255,33 @@ footer p {
     line-height: 1.6em;
     text-align: left;
 }
+/* PC View Styles */
+.pc-view nav ul {
+    display: flex;
+    /* Desktop-specific styles */
+}
+
+/* Phone View Styles */
+.phone-view nav ul {
+    display: block;
+    text-align: center;
+}
+
+.phone-view .hero h2 {
+    font-size: 2rem; /* Smaller font size for mobile */
+}
+
+.phone-view .hero button {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.phone-view .game-grid {
+    display: block; /* Stack items vertically on mobile */
+}
+
+.phone-view .artist-section img,
+.phone-view #contact img {
+    width: 100%;
+    height: auto;
+}
